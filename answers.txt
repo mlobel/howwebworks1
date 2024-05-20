@@ -1,0 +1,65 @@
+What is HTTP?
+
+HyperText Transfer Protocol.
+
+
+What is a URL?
+
+Uniform Resource Locator. Tells your browser what you are trying to open and where to locate it.
+
+
+What is DNS?
+
+Domain Name System, translates IP address into a readable name.
+
+
+What is a query String?
+
+Comes at the end of the URL, not necessary to run a webpage. Usually shows up when certain things are clicked or filled in a text input on website.
+
+
+What are two HTTP verbs and how are they different?
+
+Get: used to request data.
+
+Post: Used to send data.
+
+
+What is an HTTP request?
+
+Requests information from browser when an HTTP url is entered.
+
+
+What is an HTTP response?
+
+What the browser sends back after an HTTP request is sent.
+
+
+What is an HTTP header? Give a couple of request and response headers you have seen:
+
+Contains additional information about the request or response.
+
+Host: Specifies domain name.
+
+User-Agent: Shows information about the software, or operatinig system of requesting software user agent.
+
+Content-type: Indicates media type.
+
+Content-length: Size of response body in 8-bit bytes
+
+
+What are the processes that happen when you type "http://somesite.com/some/page.html" into a browser?
+
+
+URL Parsing: The browser parses the URL to identify the protocol (http), the domain (somesite.com), and the path to the specific resource (/some/page.html).
+
+DNS Lookup: The browser performs a DNS lookup to translate the domain name into an IP address that identifies the server on the internet.
+
+TCP Connection: The browser initiates a TCP (Transmission Control Protocol) connection with the server. This usually involves a three-way handshake to establish a reliable connection.
+
+Send HTTP Request: The browser sends an HTTP GET request to the server, asking for the specified webpage3.
+Server Response: The server processes the request, finds the page, and sends back an HTTP response, along with the requested HTML file.
+
+Rendering the Page: The browser begins rendering the HTML on the page. It parses the HTML, CSS, and JavaScript, and makes additional HTTP requests for resources like images, scripts, and stylesheets.
+
+Display Content: The browser displays the content to the user, allowing interaction with the webpage.
